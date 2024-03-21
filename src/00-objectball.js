@@ -426,7 +426,7 @@ function playerWithLongestname() {
   return longestPlayerName;
 }
 
-///*Function to return true if player with longest name has most steala *///
+///*Function to return true if player with longest name has most steals *///
 function doesLongNameStealATon() {
   const longNamePlayer = playerWithLongestname(); ///Utilizes the already defined previous function
   const obj = gameObject();
